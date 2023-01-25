@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap');
+
+/* 'Montserrat', sans-serif;
+    'Ubuntu', sans-serif;    */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/* Section styles */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Title section */
+
+#title {
+    
+    text-align: left;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 20px;    
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+.navbar {
+    padding-bottom: 6rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Img */
+
+.title-img {    
+    width: 20%;       
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;    
+}   
+
+/* Features */
+
+#features {    
+    padding: 7% 15%;
+    position: relative;    
+}
+
+.feat-items i {
+    font-size: 5rem;
+    color: #ef8192;
+    margin-bottom: 20px;
+}
+
+.feat-items i:hover {
+    color: #ff4c68;
+}
+
+.feat-items p {
+    color: #8f8f8f;
+    width: 70%;
+    margin: 0 auto
+}
+
+/* Testemonial Section */
+
+#testimonials {    
+    background-color: #ef8192;
+    margin-bottom: 0;
+}
+
+.testimonial-img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.pebbles {
+    margin-top: 30px;
+}
+
+#press {
+    background-color: #ef8192;
+    padding: 0 5%;
+    padding-bottom: 8%;
+}
+
+.press-img {    
+    width: 70%;
+    
+}
+
+/* Adds the padding ONLY to de carousel items and not the buttons, 
+which are now visible in smaller screens*/
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* CTA */
+
+#cta {
+    padding: 5% 15%;
+}
+
+#cta h3 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.button-cta {
+    margin-top: 3%;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 3% 15% 1%;
+    text-decoration: none;
+}
+
+.footer-icons {
+    padding: 3% 0;
+}
+
+.icon {
+    padding: 0 2%;
+    color: black;
+}
+
+#footer p {
+    color: rgb(158, 158, 158);
+}
+
+@media screen and (max-width: 1180px) {
+
+    .feat-items + .feat-items {
+        margin-top: 80px;
+    }
+
+    #features {    
+        position: static;    
+    }
+
+    .press-img {
+        padding: 50px 0;
+        width: 50%;
+        
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {    
+        padding: 10% 0;
+        min-width: 80%;
+        position: static;
+        transform: rotate(0deg);
+    }   
+}
+
+@media screen and (max-width: 991px) {
+
+    .title-img {    
+        min-width: 250px;
+    }   
+}
